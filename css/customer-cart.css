@@ -1,0 +1,213 @@
+
+        /* Add this style in your existing css or create a new style block in the head */
+        .button-row {
+            margin-top: 0px; /* Adjust the margin as needed */
+        }
+
+        .e-btn,
+        .d-btn {
+            padding: 8px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .d-btn {
+            background-color: #595959; /* Add this line to set the background color of d-btn to red */
+        }
+
+        button {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        button {
+            padding: 1rem;
+            margin: 3px 0;
+            font-size: 1.5rem;
+            border: var(--border);
+            background-color: var(--black);
+            color: white;
+        }
+
+        .error-message {
+            font-size: 20px; /* Adjust the font size as needed */
+            /* Add any other styles you want for the error message */
+        }
+
+        .products .box-container {
+            display: grid;
+            gap: 1.5rem;
+            width: 100%;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .products .box {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        .products .cart-total {
+            padding: 2rem 0rem 0rem;
+            margin-top: 0rem;
+            margin-bottom: 2rem;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .products .cart-total h3 {
+            font-size: 20px;
+        }
+
+        input .searchBox {
+            padding: 10px;
+            font-size: 12px;
+            color: var(--brown);
+            margin-left: 1.5rem;
+            cursor: pointer;
+        }
+
+        .error-message {
+            font-size: 18px;
+            color: #fff;
+            background-color: #dc3545; /* Red background color */
+            padding: 10px 20px; /* Add padding */
+            border-radius: 5px; /* Rounded corners */
+            text-align: center; /* Center align text */
+            margin: 0 auto; /* Add some top margin */
+            width: 60%;
+        }
+
+        table {
+            width: 1000px;
+            font-size: 15px;
+            border-collapse: collapse;
+            border-spacing: 1em;
+        }
+
+        thead tr {
+            height: 30px;
+            border: 1px solid black;
+        }
+
+        .tr-border {
+            height: 80px;
+            padding: 40px 5px;
+            border-bottom: 1px solid #3333333b;
+        }
+
+        button {
+            width: 100px;
+        }
+
+        .spacer {
+            height: 10px;
+        }
+
+        .cart-flex {
+            display: flex;
+            gap: 30px;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .cart-items {
+            height: 75vh;
+            overflow-y: auto;
+        }
+
+        .cart-summary {
+            width: 400px;
+            height: auto;
+            border: 1px solid black;
+            padding: 40px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px 10px;
+        }
+        
+        .address-details {
+            margin-top: 20px;
+        }
+
+        .address-details select, .address-details input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checkout-btn a {
+            display: block;
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .checkout-btn a:hover {
+            background-color: #555;
+        }
+
+        .summary-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .summary-item {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .summary-total {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .summary-breakdown {
+            margin-bottom: 20px;
+        }
+
+        .dropdown {
+            margin-bottom: 10px;
+        }
+
+        a#checkout-btn {
+            display: block;
+        }
+        td:nth-child(2) {
+            text-align: left;
+        }
+
+        .prod-img {
+            height: 100px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+}
+
+td.td-img {
+    width: 100px;
+    padding: 10px 20px;
+}
+
+#prod-details-one {
+    text-align: left;
+}

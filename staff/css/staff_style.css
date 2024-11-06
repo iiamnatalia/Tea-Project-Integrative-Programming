@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    /* outline: 1px solid yellowgreen; */
+    
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('../assets/resort/front.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+header {
+    color: white;
+    width: 100%;
+    background-color:  #313131;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    position: fixed;
+    padding: 5px 50px;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.maincont {
+    margin-top: 84px;
+}
+
+.mainmain {
+    padding-bottom: 50px;
+}
+
+nav img {
+    height: 40px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+nav li, .pagediv li {
+    list-style: none;
+}
+
+nav a {
+    text-align: center;
+    background-color: #b08202;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #474747;
+}
+
+.maincont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 10px 0px;
+}
+
+.container {
+    background-image: url('../assets/images/sp_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 80%;
+    padding: 20px;
+}
+
+.tbcontainer {
+    overflow: auto;
+    max-height: 100%; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.total {
+    margin-left: 7px;
+    vertical-align: center;
+}
+
+.tabletop {
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.datefilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.datefilter label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.datefilter input[type="date"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.datefilter .clear-filter,
+.datefilter .filter-button,
+.datefilter a, #pdf, .page-link {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #313131;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 70px;
+    text-decoration: none;
+}
+
+.datefilter .filter-button,
+.datefilter a, #pdf {
+    margin-left: 5px;
+}
+
+.datefilter a, #pdf {
+    padding: 7px 20px;
+    background-color: green;
+}
+
+.pdfdiv {
+    margin: 10px 0 10px 0;
+}
+
+.datefilter .clear-filter:hover,
+.datefilter .filter-button:hover {
+    background-color: #7a5200;
+}
+
+.pagediv {
+    margin-top: 10px;
+}
+.page-link {
+    background-color: #7a5200;
+    padding: 10px 20px;
+}
+
+table {
+    padding: 5px;
+    width: 100%;
+    font-size: .8em;
+}
+
+thead {
+    background-color: #b08202;
+    color: white;
+}
+
+
+td {
+    padding: 3.5px;
+    font-weight: 405;
+    border: solid .5px #c6c6c6;
+    border-radius: 5px;
+}
+
+.tbmonth {
+    background-color: #616161;
+    color: white;
+}
+
+
+tr:not(.header-row):hover {
+    background-color: #f3f3f3;
+    color: #b08202;
+}
+
+
+
+th {
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+table thead, tbody {
+    text-align: center;
+}
+
+.clearButton {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    outline: none;
+    padding: 0;
+}
+

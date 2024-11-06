@@ -1,0 +1,330 @@
+
+
+.section {
+    padding: 20px;
+    display: block;
+    background-color: black;
+    color: white;
+    width: 100%;
+    overflow-y: auto; 
+}
+
+.report {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Set the width */
+    height: 200px; /* Set the height */
+    margin: 0 auto; /* Center horizontally */
+    background-color: #b08202;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 10px;
+    color: white; /* Background color */
+}
+
+.report:hover {
+    cursor: pointer;
+    background-color: #535353;
+}
+
+
+#view-acc {
+    background-color: #535353;
+}
+
+.middle {
+    overflow-y: auto;
+    display: block;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.name .info {
+    width: 100%;
+}
+
+
+#profilecont {
+    padding: 20px 40px 10px;
+    display: block;
+    color: #3f3f3f;
+    width: 100%;
+}
+
+#profilecont h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#profilecont p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+#profiledivcont {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+#profilediv {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 1.5px solid rgb(221, 221, 221);
+    border-radius: 50%;
+
+    background-position: center;
+    background-size: cover;
+}
+
+#accountpass {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#accountpass .info input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1.5px solid #DFDFDF;
+}
+
+#accountpass .info input:focus {
+    outline: 1.5px solid #ffd64d;
+}
+
+#accountpass .info label, input {
+    color: #3f3f3f;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#profilename {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#profilename .info input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1.5px solid #DFDFDF;
+}
+
+#profilename .info input:focus {
+    outline: 1.5px solid #ffd64d;
+}
+
+#profilename .info label, input, .info label { 
+    color: #3f3f3f;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#sectioncont {
+    width: 100%;
+    overflow-y: auto;
+    height: 85vh;
+}
+
+.updatediv {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.updatediv .updatebtn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #12ad41;
+    width: 100%;
+    cursor: pointer;
+}
+
+.file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.file::before {
+    content: 'Upload Photo';
+    display: inline-block;
+    margin: 10px 0px;
+    margin-right: -90px;
+    border: 1.5px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 5px 20px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .middle {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 20px 0;
+            padding: 30px;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 800px;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        #profilecont {
+            padding: 20px;
+        }
+
+        #profilecont h2 {
+            color: #3d6655;
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .info {
+            margin-bottom: 15px;
+        }
+
+        .info label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .info input,
+        .info select {
+            width: calc(100% - 10px);
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            background: #f9f9f9;
+            transition: background 0.3s;
+        }
+
+        .info input:focus,
+        .info select:focus {
+            background: #fff;
+            border-color: #3d6655;
+        }
+
+        #profiledivcont {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        #profilediv {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ccc;
+            background-size: cover;
+            background-position: center;
+            border: 2px solid #3d6655;
+        }
+
+        .file {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        .updatediv {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .updatebtn {
+            background-color: #3d6655;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .updatebtn:hover {
+            background-color: #2b493f;
+        }
+
+        #accountpass {
+            margin-top: 0px;
+        }
+
+        .address {
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border-left: 4px solid #3d6655;
+        }
+
+        .address p {
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #3d6655;
+            margin-bottom: 10px;
+        }
+
+        select,
+        input[type="text"],
+        input[type="file"],
+        input[type="email"],
+        input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        select:focus,
+        input[type="text"]:focus,
+        input[type="file"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: #3d6655;
+        }

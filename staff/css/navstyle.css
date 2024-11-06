@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    /* outline: 1px solid black; */
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+}
+
+#navcont {
+    color: #3f3f3f;
+    min-width: 350px;
+    max-width: 350px;
+    position: sticky;
+    background-color: #F9F9FA;
+    border-right: 1.5px solid #DFDFDF;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#logodiv {
+    height: 200px;
+    padding: 20px 10px;
+    /* border-top: 1.5px solid #DFDFDF; */
+    border-bottom: 1.5px solid #DFDFDF;
+    background-image: url('../assets/icons/img.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+#logodivimg {
+    width: 250px;
+}
+
+#logodiv span {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+h1 span {
+    color: #2979FC;
+}
+
+#navdiv {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+#navdiv ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#navdiv li {
+    list-style: none;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+    cursor: pointer;
+}
+
+#navdiv i {
+    font-size: 15px;
+    
+}
+
+#navdiv ul a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3f3f3f;
+    
+}
+
+#navdiv ul li:not(.activeli):hover {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+#navdiv ul .activeli {
+    background-color: #ffd64d;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+#logoutdiv a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #b32727;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    display: block; /* Ensure it behaves as a block element */
+}
+
+

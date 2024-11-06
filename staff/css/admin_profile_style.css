@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    /* outline: 1px solid rgb(76, 255, 121); */
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* NAVIGATION */
+.headernav {
+    text-align: center;
+    padding: 50px 0;
+    width: 350px;
+    color: white;
+    background-color:  #313131;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.headernav li {
+    list-style: none;
+    padding: 10px 20px;
+    background-color: #b08202;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.headernav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.headernav img {
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section {
+    padding: 20px;
+    display: block;
+    background-color: black;
+    color: white;
+    width: 100%;
+    overflow-y: auto; 
+}
+
+.report {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Set the width */
+    height: 200px; /* Set the height */
+    margin: 0 auto; /* Center horizontally */
+    background-color: #b08202;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 10px;
+    color: white; /* Background color */
+}
+
+.report:hover {
+    cursor: pointer;
+    background-color: #535353;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    height: 80%;
+    
+}
+.logout-button{
+    background-color: #db3232;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#view-acc {
+    background-color: #535353;
+}
+
+.middle {
+    overflow-y: auto;
+    display: block;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.name .info {
+    width: 100%;
+}
+
+#profilecont {
+    padding: 20px 40px 10px;
+    display: block;
+    color: #3f3f3f;
+    width: 100%;
+}
+
+#profilecont h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#profilecont p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+#profiledivcont {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+#profilediv {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 1.5px solid rgb(221, 221, 221);
+    border-radius: 50%;
+
+    background-position: center;
+    background-size: cover;
+}
+
+#accountpass {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#accountpass .info input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1.5px solid #DFDFDF;
+}
+
+#accountpass .info input:focus {
+    outline: 1.5px solid #ffd64d;
+}
+
+#accountpass .info label, input {
+    color: #3f3f3f;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#profilename {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#profilename .info input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1.5px solid #DFDFDF;
+}
+
+#profilename .info input:focus {
+    outline: 1.5px solid #ffd64d;
+}
+
+#profilename .info label, input {
+    color: #3f3f3f;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#sectioncont {
+    width: 100%;
+    overflow-y: auto; 
+}
+
+.updatediv {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.updatediv .updatebtn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #12ad41;
+    width: 100%;
+    cursor: pointer;
+}
+
+.file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.file::before {
+    content: 'Upload Photo';
+    display: inline-block;
+    margin: 10px 0px;
+    margin-right: -90px;
+    border: 1.5px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 5px 20px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}

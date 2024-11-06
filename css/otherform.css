@@ -1,0 +1,134 @@
+.products {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+
+.box img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 1rem;
+    /* justify-content: center; */ /* Remove this line */
+}
+
+
+.box h3 {
+    font-size: 2.0rem;
+    color: var(--brown);
+    text-align: center;
+}
+
+.box p {
+    font-size: 1.3rem;
+    color: var(--brown);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--brown);
+}
+
+select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border: var(--border);
+    background-color: var(--brown);
+    color: var(--coffee-text);
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border: var(--border);
+    background-color: var(--cream);
+    color: var(--coffee-text);
+}
+
+.sh_btn {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border: var(--border);
+    background-color: var(--cream);
+    color: var(--coffee-text);
+    border-radius: 5px;
+}
+
+.sh_btn:hover {
+    background-color: var(--coffee-text);
+    color: var(--cream);
+    border: var(--border);
+}
+
+
+input {
+    min-width: 220px;
+    padding: 1rem;
+    margin-top: .4rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border: var(--border);
+    background-color: var(--cream);
+    color: var(--coffee-text);
+    border-radius: 5px;
+    
+}
+
+.qty {
+    min-width: 100%;
+    padding: 1rem;
+    margin-top: .4rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border: var(--border);
+    background-color: var(--cream);
+    color: var(--coffee-text);
+}
+
+
+button {
+    background-color: var(--brown);
+    color: var(--cream);
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+    width: 300px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--coffee-text);
+    color: var(--cream);
+    border: var(--border);
+}
+
+.addons-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust the gap between addon items */
+}

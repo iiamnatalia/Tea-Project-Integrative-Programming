@@ -1,0 +1,48 @@
+.snack-bar-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.snack-bar {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #920e0edb;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    bottom: 50px;
+    font-size: 17px;
+    animation-duration: 0.5s; /* Duration of the fade in and fade out animations */
+    animation-fill-mode: both; /* Keeps the element in its final state after animation */
+}
+
+.snack-bar.show {
+    visibility: visible;
+    animation-name: slideIn, fadeOut;
+    animation-delay: 0s, 2.5s; /* Delay fadeOut animation to match its start with fadein end */
+}
+
+@keyframes slideIn {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}

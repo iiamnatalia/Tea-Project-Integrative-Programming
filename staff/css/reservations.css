@@ -1,0 +1,31 @@
+#packagescont {
+    padding: 20px 40px 30px;
+    display: block;
+    color: #3f3f3f;
+}
+
+#packagescont h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#packagescont p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+#sectioncont {
+    width: 100%;
+    overflow-y: auto; 
+}
+
+#package_type_filter {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid #a1a1a1;
+    font-size: 15px;
+    width: 100%;
+}

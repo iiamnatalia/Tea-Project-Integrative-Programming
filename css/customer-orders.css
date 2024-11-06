@@ -1,0 +1,176 @@
+
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .tab {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-bottom: none;
+            font-size: 15px;
+        }
+        .tab.active {
+            background-color: #165348;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .status-bar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .status-step {
+            text-align: center;
+        }
+        .status-step .circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #d3d3d3;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 5px;
+        }
+        .status-step.active .circle {
+            background-color: #d1a855;
+            font-size: 17px;
+            font-weight: 800;
+        }
+        .status-step p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .reorder-button {
+            background-color: #165348;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .canceled-bar {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+                .refunded-bar {
+            background-color: rgb(0, 135, 0);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+                        .to-be-refunded-bar {
+            background-color: rgb(170, 136, 0);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 60px;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .rate {
+            float: left;
+            height: 46px;
+            padding: 0 10px;
+        }
+        .rate:not(:checked) > input {
+            position:absolute;
+            top:-9999px;
+        }
+        .rate:not(:checked) > label {
+            float:right;
+            width:1em;
+            overflow:hidden;
+            white-space:nowrap;
+            cursor:pointer;
+            font-size:30px;
+            color:#ccc;
+        }
+        .rate:not(:checked) > label:before {
+            content: '★ ';
+        }
+        .rate > input:checked ~ label {
+            color: #ffc700;    
+        }
+        .rate:not(:checked) > label:hover,
+        .rate:not(:checked) > label:hover ~ label {
+            color: #deb217;  
+        }
+        .rate > input:checked + label:hover,
+        .rate > input:checked + label:hover ~ label,
+        .rate > input:checked ~ label:hover,
+        .rate > input:checked ~ label:hover ~ label,
+        .rate > label:hover ~ input:checked ~ label {
+            color: #c59b08;
+        }
+        button.btn.rate {
+    background-color: #0e3d30;
+    color: white;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    width: 100%;
+    border: 1px solid #0e3d3063;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 16px !important;
+}
+
+button.btn.rate {
+    background-color: #0e3d30;
+    color: white;
+    margin-top: 0;
+}
+
+table p {
+  margin-bottom: 0;
+}
