@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Button</title>
+    <style>
+        /* Centering container */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* Button styling */
+        .modern-button {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        /* Hover effect */
+        .modern-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        /* Focus outline */
+        .modern-button:focus {
+            outline: none;
+            box-shadow: 0 0 5px #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <!-- Button in the center -->
+    <a href="index.php" class="modern-button">Click Me</a>
+</body>
+</html>
